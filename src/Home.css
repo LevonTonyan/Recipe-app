@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0;
+  }
+
+  .search-form input {
+    border-radius: 5px;
+    height: 30px;
+    border:grey 2px solid;
+    margin:10px;
+  }
+
+
+  .search-form button {
+    height: 36px;
+  }
+  

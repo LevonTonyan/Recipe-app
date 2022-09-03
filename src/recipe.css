@@ -1,0 +1,31 @@
+.recipe-item-container{
+    border: 2px solid rgb(206, 206, 206);
+    width: 310px;
+    margin:5px 5px;
+    display: inline-block;
+    background-color:rgb(210, 241, 241);
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: large;
+}
+.recipe-item-container img {
+    border-radius:5px;
+}
+.recipe-item-container p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.recipe-item-container a {
+    color: rgb(20, 96, 163);
+}
+
+.ing-list {
+    text-align: left;
+}
+
+
+.recipe-item-container:hover {
+    border: 2px solid black;
+}
