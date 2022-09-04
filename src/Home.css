@@ -15,4 +15,11 @@
   .search-form button {
     height: 36px;
   }
+
+  .recipe-conrainer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 100%;
+  }
   

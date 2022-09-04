@@ -2,6 +2,7 @@
 import './Home.css';
 import {useEffect, useState} from 'react';
 import Recipe from './recipe';
+import Watch from './components/watch/watch';
 
 
 
@@ -41,6 +42,10 @@ const Home = ({getDetails}) => {
                    onChange={(e)=> setSearchBarValue(e.target.value)}/>
             <button className='search-button' type="submit">Search</button>
           </form>
+          <Watch/>
+
+          <div className='recipe-conrainer-grid'>
+
           {recipes.map(recipe => (
             <Recipe title={recipe.recipe.label}
                     img={recipe.recipe.image}
@@ -52,6 +57,9 @@ const Home = ({getDetails}) => {
                    />
             
           ))}
+
+          </div>
+      
         </div>
       );
 }
