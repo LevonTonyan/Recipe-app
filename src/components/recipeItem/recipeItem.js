@@ -4,7 +4,8 @@ import {Link} from "react-router-dom"
  const RecipeItem = ({exactRecipe}) => {
 
     return (
-        <div className="recipe-container">
+        <div className="container">
+             <div className="recipe-container">
               <div className="header"><h1>{exactRecipe.recipe.label}</h1></div>
     
         <div className='recipe-item'>
@@ -30,6 +31,10 @@ import {Link} from "react-router-dom"
         </div>
         </div>
         </div>
+
+
+        </div>
+       
       );
     };
  
