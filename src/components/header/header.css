@@ -1,0 +1,9 @@
+.header-container {
+    background-color: rgb(103, 160, 170);
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+
+.header-container h1 {
+    margin-top: 0;
+}

@@ -1,8 +1,8 @@
-import './watch.css';
+import './clock.css';
 import {useState} from 'react'
 
 
-const Watch = () => {
+const Clock = () => {
     let currentTime = new Date().toString().split(" ")[4];
 
     let [clock, setClock] = useState(currentTime);
@@ -19,4 +19,4 @@ const Watch = () => {
 };
 
 
-export default Watch;
+export default Clock;

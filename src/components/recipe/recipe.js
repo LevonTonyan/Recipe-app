@@ -5,6 +5,7 @@ const Recipe = ({title, cuisineType, img, calories,recipe, getDetails}) => {
 
 function onClick() {
     getDetails(recipe);
+
 }
 
   return (
