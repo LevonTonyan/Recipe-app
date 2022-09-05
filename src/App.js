@@ -2,7 +2,7 @@
 import './App.css';
 import Home from './components/home/Home';
 import RecipeItem from './components/recipeItem/recipeItem';
-import {useState,useEffect} from 'react'
+import {useState,useEffect, useMemo} from 'react'
 import {Routes, Route} from "react-router-dom";
 import Header from './components/header/header';
 
@@ -28,6 +28,7 @@ function submit() {
 
 useEffect(() => {
   getRecipes();
+  console.log("useEffect");
 }, [submitForm]);
 
 const request = `https://api.edamam.com/api/recipes/v2?type=public&q=${submitForm}&app_id=4c696c5d&app_key=27f9b5eefbf3b5e737a6e7cf87424c1a`;

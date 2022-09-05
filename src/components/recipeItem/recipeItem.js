@@ -19,7 +19,7 @@ import {Link} from "react-router-dom"
                 
                     <div className="health-block">
                     <ul>{exactRecipe.recipe.healthLabels.map(note => (
-                        <li>{note}</li>
+                        <li key={Math.random()}>{note}</li>
                     ))}</ul>
                     </div>
                 </div>
